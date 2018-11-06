@@ -1,0 +1,21 @@
+Focosazules y rojos
+int led = 2;
+intledblue = 3;
+void setup(){
+
+
+
+pinMode(led, OUTPUT);
+pinMode(ledblue, OUTPUT);
+}
+
+void loop()
+{
+digitalWrite(led, HIGH);
+digitalWrite(ledblue,LOW);
+delay(1000); // Wait for 1000 millisecond(s)
+digitalWrite(led, LOW);
+digitalWrite(ledblue,HIGH);
+delay(1000); // Wait for 1000 millisecond(s)
+
+}
